@@ -28,3 +28,7 @@ upstream    git@github.com:kbialek/deye-inverter-mqtt.git (fetch/push)
 
 # show all branches (local and remote)
 git branch --all
+
+# Publish a branch only to my fork (origin) and not to the upstream remote (kbialek)
+git checkout -b msa-main
+git push origin msa-main
