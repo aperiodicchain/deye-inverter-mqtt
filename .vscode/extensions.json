@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-vscode-remote.remote-ssh",
+        // "ms-toolsai.jupyter",
+        "github.copilot",
+        "tamasfe.even-better-toml",
+        "aaron-bond.better-comments",
+        "github.vscode-github-actions",
+        "bierner.markdown-mermaid",
+        "ms-vscode-remote.remote-containers",
+        "mikestead.dotenv",
+        "eamodio.gitlens",
+        "hashicorp.terraform",
+        "oderwat.indent-rainbow",
+        "pkief.material-icon-theme",
+        "ms-vscode.makefile-tools",
+        // "ms-azuretools.vscode-docker",
+    ]
+}
