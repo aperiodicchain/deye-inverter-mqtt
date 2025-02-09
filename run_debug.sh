@@ -1,5 +1,7 @@
 # build in docker:
 sudo docker compose up --build -d
+# testing on feature-branch: build a seperate service and remeber to change config.env in compose.yml:
+sudo docker-compose -p feature up -d
 
 # DEBUGGING
 # 1. debugging ist direkt in VSC implementiert: benutze "Python: Debug with config.env"
