@@ -1,11 +1,8 @@
 services:
   deye-mqtt:
-    container_name: deye-inverter
-    image: deye-inverter-mqtt
-    build: ./
+    image: ghcr.io/kbialek/deye-inverter-mqtt
     env_file:
       - config.env
     restart: unless-stopped
     volumes: 
       - ./plugins:/opt/deye_inverter_mqtt/plugins:ro
-      - ./data:/opt/deye_inverter_mqtt/data:rw
